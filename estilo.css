@@ -1,0 +1,22 @@
+body{ 
+    background-color: #FFD4D7;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+h1 { background-color: #DCE7EA;
+    color: #557B83;
+}
+
+p{
+    color: #557B83;
+}
+#galeria{
+    background-color: #FF8E52;
+    width: 50vw;
+
+}
+
+.Fotitos {
+    width: 40%;
+
+}
