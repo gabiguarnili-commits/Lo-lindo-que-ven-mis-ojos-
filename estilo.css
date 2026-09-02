@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
 body{ 
     background-color: #FFD4D7;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 5em;
+    font-family: 
+    font-family: "Paprika", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    font-size: 2em;
     font-style: inherit;
     
 
@@ -10,14 +15,22 @@ h1 { background-color: #DCE7EA;
     font-family:'Times New Roman', Times, serif ;
     margin: 0;
 }
+h1:hover{
+    background-color: aliceblue;
+}
 
 p{
     color: #DCE7EA;
     font-family:'Times New Roman', Times, serif;
-    font-style:inherit 
+    font-style:inherit;
     font-size: 2em;
     background-color: #557B83;
     margin: 1;
+}
+p:hover{
+    font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 #galeria{
     background-color: #f9c2ed;
@@ -26,8 +39,13 @@ p{
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: space-around;
+    
+}
+
+#galeria:hover {
+    background-color: #fbc8cc;
 }
 .Fotitos {
-    width: 25%;
+    width: 15%;
     
 }
