@@ -1,23 +1,33 @@
 body{ 
     background-color: #FFD4D7;
     font-family:'Times New Roman', Times, serif;
+    font-size: 5em;
+    font-style: inherit;
     
-}
+
 h1 { background-color: #DCE7EA;
     color: #557B83;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Times New Roman', Times, serif ;
+    margin: 0;
 }
 
 p{
-    color: #557B83;
+    color: #DCE7EA;
+    font-family:'Times New Roman', Times, serif;
+    font-style:inherit 
+    font-size: 2em;
+    background-color: #557B83;
+    margin: 1;
 }
 #galeria{
-    background-color: #FF8E52;
-    width: 50vw;
-
+    background-color: #f9c2ed;
+    border: solid #000000;
+    display: flex; 
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
 }
-
 .Fotitos {
     width: 25%;
-
+    
 }
